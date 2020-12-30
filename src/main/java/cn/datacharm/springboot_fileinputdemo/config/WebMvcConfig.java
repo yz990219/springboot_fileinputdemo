@@ -15,7 +15,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
         if (os.toLowerCase().startsWith("win")) {
             registry.addResourceHandler("/img/**")
                     //项目外路径
-                    .addResourceLocations("file:G:/img/");
+                    .addResourceLocations("file:D:/img/");
 
         } else {  //linux 和mac
             registry.addResourceHandler("/img/**")

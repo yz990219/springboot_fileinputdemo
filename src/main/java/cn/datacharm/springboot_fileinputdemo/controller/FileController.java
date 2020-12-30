@@ -49,7 +49,7 @@ public class FileController {
         String os = System.getProperty("os.name");
         System.out.println(os);
         if (os.toLowerCase().startsWith("win")) {
-            String path = "G:"+File.separator+"img"+File.separator;
+            String path = "D:"+File.separator+"img"+File.separator;
             System.out.println(path);
             dest= new File(path + fileName);
         }else {
